@@ -1,7 +1,7 @@
 const resultsBox = document.getElementById("results");
 const totalText = document.getElementById("total");
 
-if (SCRIPT_URL === "https://script.google.com/macros/s/AKfycbzkc13NuWV9xYTvhr-wnulbr-BCUHWwjeKVSGQYeGj_GKgZuycrJvEvFXsUvuBrY1vy/exec") {
+if (SCRIPT_URL === "") {
   totalText.textContent = "Не указана ссылка SCRIPT_URL в файле data.js";
 } else {
   fetch(SCRIPT_URL)
