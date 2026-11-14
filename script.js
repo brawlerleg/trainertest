@@ -72,7 +72,7 @@ function sendAnswers() {
   retryBtn.classList.add("hidden");
 
   // пока ссылка не вставлена, просто показываем ответы в консоли
-  if (SCRIPT_URL === "https://script.google.com/macros/s/AKfycbzkc13NuWV9xYTvhr-wnulbr-BCUHWwjeKVSGQYeGj_GKgZuycrJvEvFXsUvuBrY1vy/exec") {
+  if (SCRIPT_URL === "") {
     console.log(answers);
     endTitle.textContent = "Спасибо за ответы!";
     endText.textContent = "Твоё мнение поможет понять, нужен ли такой тренажёр.";
