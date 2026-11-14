@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Нужен ли людям AI тренер?</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+
+    <!-- стартовый экран -->
+    <section class="card" id="start-screen">
+      <h1>Нужен ли людям AI тренер?</h1>
+      <p>8 коротких вопросов, около минуты. Опрос анонимный.</p>
+      <button class="btn" id="start-btn">Начать опрос</button>
+    </section>
+
+    <!-- экран с вопросами, сам вопрос и варианты рисует script.js -->
+    <section class="card hidden" id="quiz-screen">
+      <div class="progress"><div id="progress-bar"></div></div>
+      <p id="counter"></p>
+      <h2 id="question-text"></h2>
+      <div id="options"></div>
+      <button class="back-btn" id="back-btn">Назад</button>
+    </section>
+
+    <!-- финальный экран -->
+    <section class="card hidden" id="end-screen">
+      <h1 id="end-title"></h1>
+      <p id="end-text"></p>
+      <button class="btn hidden" id="retry-btn">Отправить ещё раз</button>
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
