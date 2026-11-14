@@ -1,5 +1,5 @@
 // ссылка на веб-приложение из google apps script
-const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbzkc13NuWV9xYTvhr-wnulbr-BCUHWwjeKVSGQYeGj_GKgZuycrJvEvFXsUvuBrY1vy/exec";
+const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwPydvhiWiwUjMmU-XsJLvxiB_2JPW-jvDTDfQrVcCZHNz21sMEOoK02eNMKylrz5NX/exec";
 
 // все вопросы тут, чтобы не писать html для каждого отдельно
 const questions = [
